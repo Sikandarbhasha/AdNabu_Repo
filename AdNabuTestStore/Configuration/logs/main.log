@@ -1,0 +1,640 @@
+2024-01-11 19:17:43,680 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2024-01-11 19:17:43,685 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2024-01-11 19:17:43,686 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2024-01-11 19:17:43,691 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2fc0cc3
+2024-01-11 19:17:43,708 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2024-01-11 19:17:43,708 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 17
+2024-01-11 19:17:43,710 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2024-01-11 19:17:43,711 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2024-01-11 19:17:43,712 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2024-01-11 19:17:43,712 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2024-01-11 19:17:43,713 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-01-11 19:17:43,714 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2024-01-11 19:17:43,715 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @20398b7c
+2024-01-11 19:17:43,716 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-01-11 19:17:43,717 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2024-01-11 19:17:43,730 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4273995776 bytes (maybe)
+2024-01-11 19:17:43,732 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\SIKAND~1.BSO\AppData\Local\Temp (java.io.tmpdir)
+2024-01-11 19:17:43,732 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-01-11 19:17:43,733 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2024-01-11 19:17:43,734 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2024-01-11 19:17:43,734 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-01-11 19:17:43,735 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2024-01-11 19:17:43,735 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2024-01-11 19:17:43,743 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2024-01-11 19:17:43,760 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-01-11 19:17:43,760 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-01-11 19:17:43,935 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-01-11 19:17:43,935 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-01-11 19:17:43,947 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-01-11 19:17:43,959 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2024-01-11 19:17:43,968 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2024-01-11 19:17:43,968 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-01-11 19:17:44,037 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 16
+2024-01-11 19:17:44,037 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 16
+2024-01-11 19:17:44,037 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2024-01-11 19:17:44,037 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2024-01-11 19:17:44,038 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2024-01-11 19:17:44,038 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2024-01-11 19:17:44,038 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2024-01-11 19:17:44,038 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-01-11 19:17:44,038 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-01-11 19:17:44,039 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-01-11 19:17:44,039 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-01-11 19:17:44,039 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-01-11 19:17:44,050 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2024-01-11 19:17:44,051 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-01-11 19:17:44,051 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-01-11 19:17:44,304 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 21412 (auto-detected)
+2024-01-11 19:17:44,307 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2024-01-11 19:17:44,307 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2024-01-11 19:17:44,318 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-01-11 19:17:44,319 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-01-11 19:17:44,352 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: fc:01:7c:ff:fe:88:01:97 (auto-detected)
+2024-01-11 19:17:44,404 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2024-01-11 19:17:44,404 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2024-01-11 19:17:44,404 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@56d9cd6e
+2024-01-11 19:17:44,434 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-01-11 19:17:44,434 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2024-01-11 19:17:44,435 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2024-01-11 19:17:44,435 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2024-01-11 19:17:44,435 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-01-11 19:17:47,469 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-01-11 19:17:47,677 +0530 [main] INFO  (Browser.java:63) - Browser opened
+2024-01-11 19:17:49,767 +0530 [main] INFO  (Browser.java:68) - Navigated to application
+2024-01-11 19:17:49,840 +0530 [main] INFO  (adnabu_Test.java:15) - Test case started to verifiy product search and filter
+2024-01-11 19:17:50,274 +0530 [main] INFO  (CommonLibrary.java:40) - Entered value is Shirt
+2024-01-11 19:18:02,480 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x06f02ef228ae83d6
+2024-01-11 19:18:03,456 +0530 [main] INFO  (Browser.java:75) - driver closed
+2024-01-11 19:18:03,521 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,522 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2024-01-11 19:18:03,524 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2024-01-11 19:18:03,524 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2024-01-11 19:18:03,698 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,699 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2024-01-11 19:18:03,700 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2024-01-11 19:18:03,700 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2024-01-11 19:18:03,703 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,704 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2024-01-11 19:18:03,705 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2024-01-11 19:18:03,706 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2024-01-11 19:18:03,715 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,716 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2024-01-11 19:18:03,717 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2024-01-11 19:18:03,718 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2024-01-11 19:18:03,730 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,730 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2024-01-11 19:18:03,731 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2024-01-11 19:18:03,732 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2024-01-11 19:18:03,746 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,746 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2024-01-11 19:18:03,747 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2024-01-11 19:18:03,748 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2024-01-11 19:18:03,763 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-01-11 19:18:03,764 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,765 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2024-01-11 19:18:03,766 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2024-01-11 19:18:03,767 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2024-01-11 19:18:03,772 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,772 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2024-01-11 19:18:03,773 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2024-01-11 19:18:03,774 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2024-01-11 19:18:03,778 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,779 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2024-01-11 19:18:03,780 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2024-01-11 19:18:03,780 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2024-01-11 19:18:03,784 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,785 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2024-01-11 19:18:03,785 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2024-01-11 19:18:03,786 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2024-01-11 19:18:03,793 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:18:03,793 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2024-01-11 19:18:03,794 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2024-01-11 19:18:03,795 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2024-01-11 19:18:03,807 +0530 [main] INFO  (Browser.java:81) - Extent Added
+2024-01-11 19:20:49,885 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2024-01-11 19:20:49,892 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2024-01-11 19:20:49,892 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2024-01-11 19:20:49,897 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10c626be
+2024-01-11 19:20:49,914 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2024-01-11 19:20:49,915 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 17
+2024-01-11 19:20:49,916 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2024-01-11 19:20:49,917 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2024-01-11 19:20:49,918 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2024-01-11 19:20:49,918 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2024-01-11 19:20:49,919 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-01-11 19:20:49,920 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2024-01-11 19:20:49,921 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @20398b7c
+2024-01-11 19:20:49,923 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-01-11 19:20:49,923 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2024-01-11 19:20:49,936 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4273995776 bytes (maybe)
+2024-01-11 19:20:49,937 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\SIKAND~1.BSO\AppData\Local\Temp (java.io.tmpdir)
+2024-01-11 19:20:49,937 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-01-11 19:20:49,938 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2024-01-11 19:20:49,939 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2024-01-11 19:20:49,939 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-01-11 19:20:49,940 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2024-01-11 19:20:49,941 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2024-01-11 19:20:49,948 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2024-01-11 19:20:49,965 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-01-11 19:20:49,965 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-01-11 19:20:50,135 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-01-11 19:20:50,135 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-01-11 19:20:50,148 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-01-11 19:20:50,160 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2024-01-11 19:20:50,168 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2024-01-11 19:20:50,169 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-01-11 19:20:50,242 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 16
+2024-01-11 19:20:50,242 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 16
+2024-01-11 19:20:50,242 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2024-01-11 19:20:50,242 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2024-01-11 19:20:50,243 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2024-01-11 19:20:50,243 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2024-01-11 19:20:50,243 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2024-01-11 19:20:50,243 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-01-11 19:20:50,243 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-01-11 19:20:50,243 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-01-11 19:20:50,244 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-01-11 19:20:50,244 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-01-11 19:20:50,257 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2024-01-11 19:20:50,258 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-01-11 19:20:50,258 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-01-11 19:20:50,502 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 18584 (auto-detected)
+2024-01-11 19:20:50,504 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2024-01-11 19:20:50,504 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2024-01-11 19:20:50,515 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-01-11 19:20:50,516 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-01-11 19:20:50,548 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: fc:01:7c:ff:fe:88:01:97 (auto-detected)
+2024-01-11 19:20:50,605 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2024-01-11 19:20:50,605 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2024-01-11 19:20:50,605 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@471f99a
+2024-01-11 19:20:50,628 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-01-11 19:20:50,629 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2024-01-11 19:20:50,629 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2024-01-11 19:20:50,629 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2024-01-11 19:20:50,629 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-01-11 19:20:53,895 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-01-11 19:20:54,083 +0530 [main] INFO  (Browser.java:63) - Browser opened
+2024-01-11 19:20:55,987 +0530 [main] INFO  (Browser.java:68) - Navigated to application
+2024-01-11 19:20:56,063 +0530 [main] INFO  (adnabu_Test.java:15) - Test case started to verifiy product search and filter
+2024-01-11 19:20:56,525 +0530 [main] INFO  (CommonLibrary.java:40) - Entered value is Shirt
+2024-01-11 19:21:09,188 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x3a85a2db28695d83
+2024-01-11 19:21:10,304 +0530 [main] INFO  (Browser.java:75) - driver closed
+2024-01-11 19:21:10,365 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,366 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2024-01-11 19:21:10,368 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2024-01-11 19:21:10,368 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2024-01-11 19:21:10,522 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,523 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2024-01-11 19:21:10,524 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2024-01-11 19:21:10,524 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2024-01-11 19:21:10,528 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,529 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2024-01-11 19:21:10,530 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2024-01-11 19:21:10,531 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2024-01-11 19:21:10,543 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,544 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2024-01-11 19:21:10,545 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2024-01-11 19:21:10,545 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2024-01-11 19:21:10,563 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,564 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2024-01-11 19:21:10,565 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2024-01-11 19:21:10,565 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2024-01-11 19:21:10,580 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,580 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2024-01-11 19:21:10,581 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2024-01-11 19:21:10,582 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2024-01-11 19:21:10,599 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-01-11 19:21:10,600 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,601 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2024-01-11 19:21:10,602 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2024-01-11 19:21:10,602 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2024-01-11 19:21:10,608 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,609 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2024-01-11 19:21:10,610 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2024-01-11 19:21:10,610 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2024-01-11 19:21:10,614 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,615 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2024-01-11 19:21:10,616 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2024-01-11 19:21:10,616 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2024-01-11 19:21:10,620 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,621 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2024-01-11 19:21:10,622 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2024-01-11 19:21:10,623 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2024-01-11 19:21:10,631 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:21:10,632 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2024-01-11 19:21:10,633 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2024-01-11 19:21:10,633 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2024-01-11 19:21:10,648 +0530 [main] INFO  (Browser.java:81) - Extent Added
+2024-01-11 19:21:52,333 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2024-01-11 19:21:52,345 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2024-01-11 19:21:52,345 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2024-01-11 19:21:52,355 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2fc0cc3
+2024-01-11 19:21:52,391 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2024-01-11 19:21:52,392 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 17
+2024-01-11 19:21:52,396 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2024-01-11 19:21:52,399 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2024-01-11 19:21:52,401 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2024-01-11 19:21:52,403 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2024-01-11 19:21:52,404 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-01-11 19:21:52,406 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2024-01-11 19:21:52,410 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6fc6f14e
+2024-01-11 19:21:52,413 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-01-11 19:21:52,414 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2024-01-11 19:21:52,440 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4273995776 bytes (maybe)
+2024-01-11 19:21:52,443 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\SIKAND~1.BSO\AppData\Local\Temp (java.io.tmpdir)
+2024-01-11 19:21:52,444 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-01-11 19:21:52,446 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2024-01-11 19:21:52,448 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2024-01-11 19:21:52,449 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-01-11 19:21:52,451 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2024-01-11 19:21:52,451 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2024-01-11 19:21:52,467 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2024-01-11 19:21:52,514 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-01-11 19:21:52,515 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-01-11 19:21:52,910 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-01-11 19:21:52,911 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-01-11 19:21:52,944 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-01-11 19:21:52,974 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2024-01-11 19:21:52,992 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2024-01-11 19:21:52,993 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-01-11 19:21:53,073 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 16
+2024-01-11 19:21:53,073 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 16
+2024-01-11 19:21:53,073 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2024-01-11 19:21:53,073 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2024-01-11 19:21:53,074 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2024-01-11 19:21:53,074 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2024-01-11 19:21:53,074 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2024-01-11 19:21:53,074 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-01-11 19:21:53,075 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-01-11 19:21:53,075 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-01-11 19:21:53,075 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-01-11 19:21:53,075 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-01-11 19:21:53,091 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2024-01-11 19:21:53,091 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-01-11 19:21:53,091 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-01-11 19:21:53,346 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 17416 (auto-detected)
+2024-01-11 19:21:53,348 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2024-01-11 19:21:53,348 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2024-01-11 19:21:53,359 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-01-11 19:21:53,360 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-01-11 19:21:53,390 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: fc:01:7c:ff:fe:88:01:97 (auto-detected)
+2024-01-11 19:21:53,438 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2024-01-11 19:21:53,438 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2024-01-11 19:21:53,439 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7755bf09
+2024-01-11 19:21:53,462 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-01-11 19:21:53,462 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2024-01-11 19:21:53,462 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2024-01-11 19:21:53,463 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2024-01-11 19:21:53,463 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-01-11 19:21:56,318 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-01-11 19:21:56,505 +0530 [main] INFO  (Browser.java:63) - Browser opened
+2024-01-11 19:21:58,526 +0530 [main] INFO  (Browser.java:68) - Navigated to application
+2024-01-11 19:21:58,621 +0530 [main] INFO  (adnabu_Test.java:15) - Test case started to verifiy product search and filter
+2024-01-11 19:21:59,097 +0530 [main] INFO  (CommonLibrary.java:40) - Entered value is Shirt
+2024-01-11 19:23:25,036 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2024-01-11 19:23:25,050 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2024-01-11 19:23:25,050 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2024-01-11 19:23:25,059 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10c626be
+2024-01-11 19:23:25,094 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2024-01-11 19:23:25,094 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 17
+2024-01-11 19:23:25,097 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2024-01-11 19:23:25,099 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2024-01-11 19:23:25,100 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2024-01-11 19:23:25,102 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2024-01-11 19:23:25,103 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-01-11 19:23:25,105 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2024-01-11 19:23:25,108 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @20398b7c
+2024-01-11 19:23:25,111 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-01-11 19:23:25,112 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2024-01-11 19:23:25,137 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4273995776 bytes (maybe)
+2024-01-11 19:23:25,141 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\SIKAND~1.BSO\AppData\Local\Temp (java.io.tmpdir)
+2024-01-11 19:23:25,142 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-01-11 19:23:25,145 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2024-01-11 19:23:25,147 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2024-01-11 19:23:25,148 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-01-11 19:23:25,152 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2024-01-11 19:23:25,153 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2024-01-11 19:23:25,172 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2024-01-11 19:23:25,212 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-01-11 19:23:25,212 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-01-11 19:23:25,534 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-01-11 19:23:25,535 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-01-11 19:23:25,547 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-01-11 19:23:25,560 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2024-01-11 19:23:25,568 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2024-01-11 19:23:25,568 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-01-11 19:23:25,641 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 16
+2024-01-11 19:23:25,641 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 16
+2024-01-11 19:23:25,641 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2024-01-11 19:23:25,641 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2024-01-11 19:23:25,642 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2024-01-11 19:23:25,642 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2024-01-11 19:23:25,642 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2024-01-11 19:23:25,642 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-01-11 19:23:25,642 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-01-11 19:23:25,642 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-01-11 19:23:25,643 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-01-11 19:23:25,643 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-01-11 19:23:25,655 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2024-01-11 19:23:25,655 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-01-11 19:23:25,655 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-01-11 19:23:25,900 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 15956 (auto-detected)
+2024-01-11 19:23:25,902 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2024-01-11 19:23:25,902 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2024-01-11 19:23:25,912 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-01-11 19:23:25,913 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-01-11 19:23:25,943 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: fc:01:7c:ff:fe:88:01:97 (auto-detected)
+2024-01-11 19:23:25,987 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2024-01-11 19:23:25,987 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2024-01-11 19:23:25,987 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@56d9cd6e
+2024-01-11 19:23:26,010 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-01-11 19:23:26,011 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2024-01-11 19:23:26,011 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2024-01-11 19:23:26,011 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2024-01-11 19:23:26,011 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-01-11 19:23:29,779 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-01-11 19:23:29,879 +0530 [main] INFO  (Browser.java:63) - Browser opened
+2024-01-11 19:23:31,762 +0530 [main] INFO  (Browser.java:68) - Navigated to application
+2024-01-11 19:23:31,817 +0530 [main] INFO  (adnabu_Test.java:15) - Test case started to verifiy product search and filter
+2024-01-11 19:23:32,246 +0530 [main] INFO  (CommonLibrary.java:40) - Entered value is Shirt
+2024-01-11 19:23:47,295 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0xb66efb568802a487
+2024-01-11 19:23:48,308 +0530 [main] INFO  (Browser.java:75) - driver closed
+2024-01-11 19:23:48,375 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,376 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2024-01-11 19:23:48,378 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2024-01-11 19:23:48,378 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2024-01-11 19:23:48,553 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,554 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2024-01-11 19:23:48,554 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2024-01-11 19:23:48,555 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2024-01-11 19:23:48,558 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,559 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2024-01-11 19:23:48,560 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2024-01-11 19:23:48,561 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2024-01-11 19:23:48,573 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,573 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2024-01-11 19:23:48,574 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2024-01-11 19:23:48,575 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2024-01-11 19:23:48,586 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,587 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2024-01-11 19:23:48,588 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2024-01-11 19:23:48,588 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2024-01-11 19:23:48,602 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,602 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2024-01-11 19:23:48,603 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2024-01-11 19:23:48,604 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2024-01-11 19:23:48,620 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-01-11 19:23:48,621 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,621 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2024-01-11 19:23:48,622 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2024-01-11 19:23:48,622 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2024-01-11 19:23:48,627 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,627 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2024-01-11 19:23:48,628 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2024-01-11 19:23:48,629 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2024-01-11 19:23:48,632 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,633 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2024-01-11 19:23:48,634 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2024-01-11 19:23:48,635 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2024-01-11 19:23:48,640 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,640 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2024-01-11 19:23:48,641 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2024-01-11 19:23:48,642 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2024-01-11 19:23:48,649 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:23:48,650 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2024-01-11 19:23:48,650 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2024-01-11 19:23:48,651 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2024-01-11 19:23:48,663 +0530 [main] INFO  (Browser.java:81) - Extent Added
+2024-01-11 19:24:51,617 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2024-01-11 19:24:51,627 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2024-01-11 19:24:51,628 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2024-01-11 19:24:51,636 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10c626be
+2024-01-11 19:24:51,668 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2024-01-11 19:24:51,669 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 17
+2024-01-11 19:24:51,672 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2024-01-11 19:24:51,673 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2024-01-11 19:24:51,675 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2024-01-11 19:24:51,676 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2024-01-11 19:24:51,677 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-01-11 19:24:51,679 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2024-01-11 19:24:51,681 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @20398b7c
+2024-01-11 19:24:51,684 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-01-11 19:24:51,684 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2024-01-11 19:24:51,709 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4273995776 bytes (maybe)
+2024-01-11 19:24:51,712 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\SIKAND~1.BSO\AppData\Local\Temp (java.io.tmpdir)
+2024-01-11 19:24:51,713 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-01-11 19:24:51,715 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2024-01-11 19:24:51,717 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2024-01-11 19:24:51,717 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-01-11 19:24:51,719 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2024-01-11 19:24:51,720 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2024-01-11 19:24:51,735 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2024-01-11 19:24:51,771 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-01-11 19:24:51,772 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-01-11 19:24:52,020 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-01-11 19:24:52,020 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-01-11 19:24:52,032 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-01-11 19:24:52,046 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2024-01-11 19:24:52,055 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2024-01-11 19:24:52,055 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-01-11 19:24:52,127 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 16
+2024-01-11 19:24:52,127 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 16
+2024-01-11 19:24:52,127 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2024-01-11 19:24:52,127 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2024-01-11 19:24:52,127 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2024-01-11 19:24:52,128 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2024-01-11 19:24:52,128 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2024-01-11 19:24:52,128 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-01-11 19:24:52,128 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-01-11 19:24:52,128 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-01-11 19:24:52,128 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-01-11 19:24:52,129 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-01-11 19:24:52,140 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2024-01-11 19:24:52,140 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-01-11 19:24:52,141 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-01-11 19:24:52,390 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 15724 (auto-detected)
+2024-01-11 19:24:52,392 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2024-01-11 19:24:52,393 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2024-01-11 19:24:52,404 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-01-11 19:24:52,405 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-01-11 19:24:52,437 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: fc:01:7c:ff:fe:88:01:97 (auto-detected)
+2024-01-11 19:24:52,483 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2024-01-11 19:24:52,483 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2024-01-11 19:24:52,483 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@556a672b
+2024-01-11 19:24:52,512 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-01-11 19:24:52,512 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2024-01-11 19:24:52,512 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2024-01-11 19:24:52,513 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2024-01-11 19:24:52,513 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-01-11 19:24:55,960 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-01-11 19:24:56,060 +0530 [main] INFO  (Browser.java:63) - Browser opened
+2024-01-11 19:24:57,356 +0530 [main] INFO  (Browser.java:68) - Navigated to application
+2024-01-11 19:24:57,446 +0530 [main] INFO  (adnabu_Test.java:15) - Test case started to verifiy product search and filter
+2024-01-11 19:24:57,859 +0530 [main] INFO  (CommonLibrary.java:40) - Entered value is Shirt
+2024-01-11 19:25:03,440 +0530 [main] INFO  (ProductSearchNfilter.java:54) - Clicked on add to cart button
+2024-01-11 19:25:03,441 +0530 [main] INFO  (adnabu_Test.java:25) - Test case ended to verifiy product search and filter
+2024-01-11 19:25:03,521 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0xff25c159460bcb93
+2024-01-11 19:25:04,509 +0530 [main] INFO  (Browser.java:75) - driver closed
+2024-01-11 19:25:04,562 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,563 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2024-01-11 19:25:04,565 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2024-01-11 19:25:04,566 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2024-01-11 19:25:04,736 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,737 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2024-01-11 19:25:04,738 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2024-01-11 19:25:04,738 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2024-01-11 19:25:04,742 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,743 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2024-01-11 19:25:04,743 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2024-01-11 19:25:04,744 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2024-01-11 19:25:04,753 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,754 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2024-01-11 19:25:04,754 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2024-01-11 19:25:04,755 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2024-01-11 19:25:04,767 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,768 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2024-01-11 19:25:04,769 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2024-01-11 19:25:04,770 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2024-01-11 19:25:04,787 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,787 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2024-01-11 19:25:04,788 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2024-01-11 19:25:04,789 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2024-01-11 19:25:04,810 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-01-11 19:25:04,812 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,813 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2024-01-11 19:25:04,814 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2024-01-11 19:25:04,815 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2024-01-11 19:25:04,821 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,822 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2024-01-11 19:25:04,823 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2024-01-11 19:25:04,824 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2024-01-11 19:25:04,828 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,830 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2024-01-11 19:25:04,831 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2024-01-11 19:25:04,832 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2024-01-11 19:25:04,838 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,839 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2024-01-11 19:25:04,840 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2024-01-11 19:25:04,840 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2024-01-11 19:25:04,850 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:25:04,851 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2024-01-11 19:25:04,852 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2024-01-11 19:25:04,853 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2024-01-11 19:25:04,866 +0530 [main] INFO  (Browser.java:81) - Extent Added
+2024-01-11 19:28:04,971 +0530 [main] DEBUG (InternalLoggerFactory.java:89) - Using Log4J as the default logging framework
+2024-01-11 19:28:04,977 +0530 [main] DEBUG (ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+2024-01-11 19:28:04,977 +0530 [main] DEBUG (ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+2024-01-11 19:28:04,982 +0530 [main] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10c626be
+2024-01-11 19:28:05,000 +0530 [main] DEBUG (PlatformDependent0.java:496) - -Dio.netty.noUnsafe: false
+2024-01-11 19:28:05,001 +0530 [main] DEBUG (PlatformDependent0.java:1000) - Java version: 17
+2024-01-11 19:28:05,002 +0530 [main] DEBUG (PlatformDependent0.java:137) - sun.misc.Unsafe.theUnsafe: available
+2024-01-11 19:28:05,003 +0530 [main] DEBUG (PlatformDependent0.java:161) - sun.misc.Unsafe.copyMemory: available
+2024-01-11 19:28:05,003 +0530 [main] DEBUG (PlatformDependent0.java:193) - sun.misc.Unsafe.storeFence: available
+2024-01-11 19:28:05,004 +0530 [main] DEBUG (PlatformDependent0.java:236) - java.nio.Buffer.address: available
+2024-01-11 19:28:05,005 +0530 [main] DEBUG (PlatformDependent0.java:320) - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-01-11 19:28:05,006 +0530 [main] DEBUG (PlatformDependent0.java:385) - java.nio.Bits.unaligned: available, true
+2024-01-11 19:28:05,007 +0530 [main] DEBUG (PlatformDependent0.java:452) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @20398b7c
+2024-01-11 19:28:05,009 +0530 [main] DEBUG (PlatformDependent0.java:482) - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-01-11 19:28:05,009 +0530 [main] DEBUG (PlatformDependent.java:1159) - sun.misc.Unsafe: available
+2024-01-11 19:28:05,021 +0530 [main] DEBUG (PlatformDependent.java:1270) - maxDirectMemory: 4273995776 bytes (maybe)
+2024-01-11 19:28:05,023 +0530 [main] DEBUG (PlatformDependent.java:1289) - -Dio.netty.tmpdir: C:\Users\SIKAND~1.BSO\AppData\Local\Temp (java.io.tmpdir)
+2024-01-11 19:28:05,023 +0530 [main] DEBUG (PlatformDependent.java:1368) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-01-11 19:28:05,025 +0530 [main] DEBUG (PlatformDependent.java:1119) - Platform: Windows
+2024-01-11 19:28:05,026 +0530 [main] DEBUG (PlatformDependent.java:178) - -Dio.netty.maxDirectMemory: -1 bytes
+2024-01-11 19:28:05,026 +0530 [main] DEBUG (PlatformDependent.java:185) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-01-11 19:28:05,027 +0530 [main] DEBUG (CleanerJava9.java:71) - java.nio.ByteBuffer.cleaner(): available
+2024-01-11 19:28:05,027 +0530 [main] DEBUG (PlatformDependent.java:205) - -Dio.netty.noPreferDirect: false
+2024-01-11 19:28:05,034 +0530 [main] DEBUG (PlatformDependent.java:1010) - org.jctools-core.MpscChunkedArrayQueue: available
+2024-01-11 19:28:05,052 +0530 [main] DEBUG (InternalThreadLocalMap.java:100) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-01-11 19:28:05,053 +0530 [main] DEBUG (InternalThreadLocalMap.java:101) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-01-11 19:28:05,221 +0530 [main] DEBUG (JdkSslContext.java:83) - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-01-11 19:28:05,222 +0530 [main] DEBUG (JdkSslContext.java:84) - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-01-11 19:28:05,234 +0530 [main] DEBUG (GlobalEventExecutor.java:53) - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2024-01-11 19:28:05,247 +0530 [main] DEBUG (MultithreadEventLoopGroup.java:44) - -Dio.netty.eventLoopThreads: 16
+2024-01-11 19:28:05,255 +0530 [main] DEBUG (NioEventLoop.java:110) - -Dio.netty.noKeySetOptimization: false
+2024-01-11 19:28:05,255 +0530 [main] DEBUG (NioEventLoop.java:111) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-01-11 19:28:05,325 +0530 [main] DEBUG (PooledByteBufAllocator.java:157) - -Dio.netty.allocator.numHeapArenas: 16
+2024-01-11 19:28:05,326 +0530 [main] DEBUG (PooledByteBufAllocator.java:158) - -Dio.netty.allocator.numDirectArenas: 16
+2024-01-11 19:28:05,326 +0530 [main] DEBUG (PooledByteBufAllocator.java:160) - -Dio.netty.allocator.pageSize: 8192
+2024-01-11 19:28:05,326 +0530 [main] DEBUG (PooledByteBufAllocator.java:165) - -Dio.netty.allocator.maxOrder: 9
+2024-01-11 19:28:05,326 +0530 [main] DEBUG (PooledByteBufAllocator.java:169) - -Dio.netty.allocator.chunkSize: 4194304
+2024-01-11 19:28:05,326 +0530 [main] DEBUG (PooledByteBufAllocator.java:170) - -Dio.netty.allocator.smallCacheSize: 256
+2024-01-11 19:28:05,326 +0530 [main] DEBUG (PooledByteBufAllocator.java:171) - -Dio.netty.allocator.normalCacheSize: 64
+2024-01-11 19:28:05,327 +0530 [main] DEBUG (PooledByteBufAllocator.java:172) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-01-11 19:28:05,327 +0530 [main] DEBUG (PooledByteBufAllocator.java:173) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-01-11 19:28:05,327 +0530 [main] DEBUG (PooledByteBufAllocator.java:174) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-01-11 19:28:05,327 +0530 [main] DEBUG (PooledByteBufAllocator.java:175) - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-01-11 19:28:05,327 +0530 [main] DEBUG (PooledByteBufAllocator.java:176) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-01-11 19:28:05,341 +0530 [main] DEBUG (ByteBufUtil.java:88) - -Dio.netty.allocator.type: pooled
+2024-01-11 19:28:05,341 +0530 [main] DEBUG (ByteBufUtil.java:97) - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-01-11 19:28:05,342 +0530 [main] DEBUG (ByteBufUtil.java:100) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-01-11 19:28:05,583 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:79) - -Dio.netty.processId: 6784 (auto-detected)
+2024-01-11 19:28:05,585 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:148) - -Djava.net.preferIPv4Stack: false
+2024-01-11 19:28:05,585 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:149) - -Djava.net.preferIPv6Addresses: false
+2024-01-11 19:28:05,595 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtilInitializations.java:145) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-01-11 19:28:05,596 +0530 [Forwarding newSession on session null to remote] DEBUG (NetUtil.java:206) - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-01-11 19:28:05,626 +0530 [Forwarding newSession on session null to remote] DEBUG (DefaultChannelId.java:101) - -Dio.netty.machineId: fc:01:7c:ff:fe:88:01:97 (auto-detected)
+2024-01-11 19:28:05,672 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:63) - -Dio.netty.buffer.checkAccessible: true
+2024-01-11 19:28:05,672 +0530 [AsyncHttpClient-1-2] DEBUG (AbstractByteBuf.java:64) - -Dio.netty.buffer.checkBounds: true
+2024-01-11 19:28:05,672 +0530 [AsyncHttpClient-1-2] DEBUG (ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@556a672b
+2024-01-11 19:28:05,696 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:96) - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-01-11 19:28:05,696 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:97) - -Dio.netty.recycler.ratio: 8
+2024-01-11 19:28:05,696 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:98) - -Dio.netty.recycler.chunkSize: 32
+2024-01-11 19:28:05,696 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:99) - -Dio.netty.recycler.blocking: false
+2024-01-11 19:28:05,697 +0530 [AsyncHttpClient-1-2] DEBUG (Recycler.java:100) - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2024-01-11 19:28:08,693 +0530 [AsyncHttpClient-1-2] DEBUG (Brotli.java:38) - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-01-11 19:28:08,880 +0530 [main] INFO  (Browser.java:63) - Browser opened
+2024-01-11 19:28:10,948 +0530 [main] INFO  (Browser.java:68) - Navigated to application
+2024-01-11 19:28:11,042 +0530 [main] INFO  (adnabu_Test.java:15) - Test case started to verifiy product search and filter
+2024-01-11 19:28:11,618 +0530 [main] INFO  (CommonLibrary.java:40) - Entered value is Shirt
+2024-01-11 19:28:16,236 +0530 [main] INFO  (ProductSearchNfilter.java:56) - Clicked on add to cart button
+2024-01-11 19:28:16,238 +0530 [main] INFO  (adnabu_Test.java:25) - Test case ended to verifiy product search and filter
+2024-01-11 19:28:16,318 +0530 [main] DEBUG (ThreadLocalRandom.java:214) - -Dio.netty.initialSeedUniquifier: 0x223d57f84ae4ee4b
+2024-01-11 19:28:17,302 +0530 [main] INFO  (Browser.java:75) - driver closed
+2024-01-11 19:28:17,359 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,360 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2024-01-11 19:28:17,362 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2024-01-11 19:28:17,362 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2024-01-11 19:28:17,519 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,520 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2024-01-11 19:28:17,521 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2024-01-11 19:28:17,522 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2024-01-11 19:28:17,527 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,527 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2024-01-11 19:28:17,528 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2024-01-11 19:28:17,528 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2024-01-11 19:28:17,540 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,541 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2024-01-11 19:28:17,541 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2024-01-11 19:28:17,542 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2024-01-11 19:28:17,553 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,554 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2024-01-11 19:28:17,555 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2024-01-11 19:28:17,555 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2024-01-11 19:28:17,566 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,567 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2024-01-11 19:28:17,568 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2024-01-11 19:28:17,568 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2024-01-11 19:28:17,584 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-01-11 19:28:17,585 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,586 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2024-01-11 19:28:17,587 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2024-01-11 19:28:17,587 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2024-01-11 19:28:17,591 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,592 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2024-01-11 19:28:17,593 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2024-01-11 19:28:17,593 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2024-01-11 19:28:17,596 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,597 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2024-01-11 19:28:17,599 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2024-01-11 19:28:17,600 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2024-01-11 19:28:17,604 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,605 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2024-01-11 19:28:17,606 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2024-01-11 19:28:17,607 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2024-01-11 19:28:17,614 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2024-01-11 19:28:17,615 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2024-01-11 19:28:17,616 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2024-01-11 19:28:17,616 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Sikandarbhasha.BSOLAD/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2024-01-11 19:28:17,628 +0530 [main] INFO  (Browser.java:81) - Extent Added
