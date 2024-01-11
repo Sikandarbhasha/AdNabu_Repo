@@ -28,7 +28,13 @@ public class adnabu_Test extends BaseClass {
 	@Test(priority = 2)
 	public void verification_of_productRemoveFromCart_Test() {
 		test = extent.createTest("verification_of_productRemoveFromCart_Test");
+		test.info("Test case started to verifiy product remove from cart");
+		logger.info("Test case started to verifiy product remove from cart");
+		
 		pr.viewNRemoveproductFromCart();
+		
+		test.log(Status.PASS, "Test case ended to verifiy product remove from cart");
+		logger.info("Test case ended to verifiy product remove from cart");
 	}
 	
 }

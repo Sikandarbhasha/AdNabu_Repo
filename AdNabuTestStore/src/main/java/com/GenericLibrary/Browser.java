@@ -5,6 +5,8 @@ import java.time.Duration;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,6 +19,8 @@ import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
@@ -35,7 +39,7 @@ public class Browser {
 		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/ExtentReport/testReport.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		PropertyConfigurator.configure(System.getProperty("user.dir") + "/Configuration/log4j.properties");
+		PropertyConfigurator.configure(System.getProperty("user.dir") + "/Log/log4j.properties");
 		
 		// To add system or environment info by using the setSystemInfo method.
 				extent.setSystemInfo("System IP Address", InetAddress.getLocalHost().getHostAddress());
@@ -43,7 +47,6 @@ public class Browser {
 				extent.setSystemInfo("OS", "Windows 10");
 				
 				// configuration items to change the look and feel
-				// add content, manage tests etc
 				htmlReporter.config().setDocumentTitle("adnabu application Automation Test Result");
 				htmlReporter.config().setReportName("adnabu application Automation Test Result");
 				htmlReporter.config().setTheme(Theme.DARK);
@@ -72,12 +75,25 @@ public class Browser {
 	@AfterTest
 	public void closeBrowser() {
 		driver.quit();
-		logger.info("driver closed");
+		logger.info("Browser closed");
 	}
 	
 	@AfterSuite
 	public void flushExtentReport() {
 		extent.flush();
-		logger.info("Extent Added");
 	}
+	
+	public static void captureScreenshotAndAttachToReport(WebDriver driver, ExtentTest test, String screenshotName) {
+        try {
+            // Take screenshot and convert it to base64 for Extent Report
+            TakesScreenshot ts = (TakesScreenshot) driver;
+            String Screenshot = ts.getScreenshotAs(OutputType.BASE64);
+
+            // Embed the screenshot into the report
+            test.log(Status.FAIL, MarkupHelper.createLabel("Test Case Failed. See the screenshot below:", com.aventstack.extentreports.markuputils.ExtentColor.RED));
+            test.fail("Screenshot: " + test.addScreenCaptureFromBase64String(Screenshot));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

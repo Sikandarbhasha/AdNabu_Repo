@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>D:\Eclipse\AdNabuTestStore\testng.xml</span>
+                    <span>C:\Users\I T POINT\Desktop\New folder\AdNabuTestStore\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -144,19 +144,29 @@
                   <a name="verification_of_productRemoveFromCart_Test">
                   </a> <!-- verification_of_productRemoveFromCart_Test -->
                   <span class="method-name">verification_of_productRemoveFromCart_Test</span>
-                  <div class="stack-trace">java.lang.AssertionError: Unable Click on element Element &lt;span class=&quot;visually-hidden&quot;&gt; could not be scrolled into view
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@id=&apos;HeaderMenu-home&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [1f8e702e-24b6-42e7-b5cc-2dd423c91965, clickElement {id=831a8009-5b39-412c-9f5a-873fe0543387}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 119.0.1, moz:accessibilityChecks: false, moz:buildID: 20231106151204, moz:debuggerAddress: 127.0.0.1:41691, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15744, moz:profile: C:\Users\SIKAND~1.BSO\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41691/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on windows (1f8e702e-24b6-42e7-b5cc-2dd423c91965)] -&gt; xpath: //span[text()=&apos;Cart&apos;]]
-Session ID: 1f8e702e-24b6-42e7-b5cc-2dd423c91965 expected [true] but found [false]
-	at com.GenericLibrary.CommonLibrary.buttonClick(CommonLibrary.java:71)
-	at com.PageObject.ProductSearchNfilter.viewNRemoveproductFromCart(ProductSearchNfilter.java:68)
-	at com.testCases.adnabu_Test.verification_of_productRemoveFromCart_Test(adnabu_Test.java:31)
+Command: [cd9ae7a4-9d05-42f2-9639-31fb1da1c71d, findElement {using=xpath, value=//a[@id=&apos;HeaderMenu-home&apos;]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0.1, moz:accessibilityChecks: false, moz:buildID: 20230608214645, moz:debuggerAddress: 127.0.0.1:9288, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9848, moz:profile: C:\Users\ITPOIN~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9288/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cd9ae7a4-9d05-42f2-9639-31fb1da1c71d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.PageObject.ProductSearchNfilter.viewNRemoveproductFromCart(ProductSearchNfilter.java:67)
+	at com.testCases.adnabu_Test.verification_of_productRemoveFromCart_Test(adnabu_Test.java:34)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames
+... Removed 32 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -180,7 +190,7 @@ Session ID: 1f8e702e-24b6-42e7-b5cc-2dd423c91965 expected [true] but found [fals
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Eclipse\AdNabuTestStore\testng.xml</span>
+            <span class="header-content">C:\Users\I T POINT\Desktop\New folder\AdNabuTestStore\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -234,16 +244,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verification_of_productSearchNfilter_Test')
 data.setCell(0, 2, 'com.testCases.adnabu_Test')
-data.setCell(0, 3, 5217);
+data.setCell(0, 3, 26563);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verification_of_productRemoveFromCart_Test')
 data.setCell(1, 2, 'com.testCases.adnabu_Test')
-data.setCell(1, 3, 63);
+data.setCell(1, 3, 20631);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -276,29 +286,29 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">setBrowser(firefox)</span>
-                <span class="method-start">229 ms</span>
+                <span class="method-start">581 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setClass</span>
-                <span class="method-start">7080 ms</span>
+                <span class="method-start">236243 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verification_of_productSearchNfilter_Test</span>
-                <span class="method-start">7135 ms</span>
+                <span class="method-start">236842 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verification_of_productRemoveFromCart_Test</span>
-                <span class="method-start">12358 ms</span>
+                <span class="method-start">263444 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">12424 ms</span>
+                <span class="method-start">284569 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">flushExtentReport</span>
-                <span class="method-start">13456 ms</span>
+                <span class="method-start">304594 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

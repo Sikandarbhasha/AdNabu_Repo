@@ -35,10 +35,8 @@ public class CommonLibrary extends Browser {
 				waitForElementToBePresent(element);
 				moveToElement(element);
 				
-				//test.log(Status.INFO, "waiting to enter value");
 				element.sendKeys(value);
 				logger.info("Entered value is " + value);
-				//test.log(Status.PASS, "Entered value is " + value);
 			} catch (Exception e) {
 				Assert.assertTrue(false, "Unable to enter Value "+ e.getMessage());
 				logger.error("Unable to enter Value " + e.getMessage());
@@ -48,6 +46,7 @@ public class CommonLibrary extends Browser {
 
 		}
 		
+		// Scroll function
 		public static void moveToElement(WebElement element) {
 			try {
 				JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -78,7 +77,6 @@ public class CommonLibrary extends Browser {
 		public static String getText(WebElement element) {
 			try {
 				waitForElementToBePresent(element);
-//			moveToElement(element);
 				value = element.getText().trim();
 				logger.info("Value of element is " + value);
 			} catch (Exception e) {

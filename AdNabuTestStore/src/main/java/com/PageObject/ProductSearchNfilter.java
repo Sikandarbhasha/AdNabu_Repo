@@ -11,7 +11,7 @@ import com.GenericLibrary.CommonLibrary;
 
 public class ProductSearchNfilter extends CommonLibrary {
 	WebDriver driver;
-	JavascriptExecutor jsExecutor;
+	JavascriptExecutor js;
 	
 	public ProductSearchNfilter(WebDriver driver) {
 		this.driver=driver;
@@ -55,19 +55,15 @@ public class ProductSearchNfilter extends CommonLibrary {
 			Thread.sleep(2000);
 			logger.info("Clicked on add to cart button");
 			
-//			String cartText = driver.findElement(By.xpath("//h1[text()='Your cart']")).getText();
 		}
 
 		//View and remove item from cart
 				public void viewNRemoveproductFromCart() {
-					jsExecutor = (JavascriptExecutor) driver;
-
-			        // Execute JavaScript to scroll up
-			        jsExecutor.executeScript("window.scrollTo(0, 0);");
-			        
-					buttonClick(viewCart);
+					js = (JavascriptExecutor) driver;
+					js.executeScript("arguments[0].scrollIntoView(true);", viewCart);
+					js.executeScript("arguments[0].click();", viewCart);
+					
 					driver.findElement(By.xpath("//a[contains(@aria-label,'Remove')]")).click();
-					String emptyCartText = driver.findElement(By.xpath("//h1[text()='Your cart is empty']")).getText();
 					driver.findElement(By.xpath("//a[@id='HeaderMenu-home']")).click();
 					
 				}
