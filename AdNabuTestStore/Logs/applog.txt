@@ -1,7 +1,0 @@
-INFO    2024-01-12 00:37:42,123 [main] LoggerCreation  - Browser opened
-INFO    2024-01-12 00:38:03,407 [main] LoggerCreation  - Navigated to application
-INFO    2024-01-12 00:38:04,549 [main] LoggerCreation  - Test case started to verifiy product search and filter
-INFO    2024-01-12 00:38:09,655 [main] LoggerCreation  - Entered value is Shirt
-INFO    2024-01-12 00:38:29,850 [main] LoggerCreation  - Clicked on add to cart button
-INFO    2024-01-12 00:38:29,851 [main] LoggerCreation  - Test case ended to verifiy product search and filter
-INFO    2024-01-12 00:38:44,350 [main] LoggerCreation  - Browser closed

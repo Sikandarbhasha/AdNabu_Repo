@@ -37,6 +37,7 @@ public class CommonLibrary extends Browser {
 				
 				element.sendKeys(value);
 				logger.info("Entered value is " + value);
+				test.log(Status.PASS, "Entered value is " + value);
 			} catch (Exception e) {
 				Assert.assertTrue(false, "Unable to enter Value "+ e.getMessage());
 				logger.error("Unable to enter Value " + e.getMessage());
@@ -61,11 +62,9 @@ public class CommonLibrary extends Browser {
 		public static void buttonClick(WebElement element) {
 			try {
 				waitForElementToBePresent(element);
-				
 				String elval = element.getText();
-				test.log(Status.INFO, "waiting to click on  " + elval);
+				test.log(Status.INFO, "Clicked on  " + elval);
 				element.click();
-				test.log(Status.PASS, "Clicked on  " +elval);
 			} catch (Exception e) {
 				Assert.assertTrue(false, "Unable Click on element " + e.getMessage());
 				test.log(Status.FAIL, "Unable Click on element " + e.getMessage());
@@ -79,6 +78,7 @@ public class CommonLibrary extends Browser {
 				waitForElementToBePresent(element);
 				value = element.getText().trim();
 				logger.info("Value of element is " + value);
+				test.log(Status.PASS, "Entered value is " + value);
 			} catch (Exception e) {
 				Assert.assertTrue(false, "Element not found" + element);
 				e.printStackTrace();

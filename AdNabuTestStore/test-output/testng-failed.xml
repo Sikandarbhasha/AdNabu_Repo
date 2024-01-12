@@ -6,10 +6,10 @@
     <classes>
       <class name="com.testCases.adnabu_Test">
         <methods>
-          <include name="verification_of_productRemoveFromCart_Test"/>
-          <include name="closeBrowser"/>
           <include name="setClass"/>
           <include name="setLog"/>
+          <include name="verification_of_productSearchNfilter_Test"/>
+          <include name="closeBrowser"/>
           <include name="flushExtentReport"/>
           <include name="setBrowser"/>
         </methods>

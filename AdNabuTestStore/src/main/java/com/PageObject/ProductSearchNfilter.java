@@ -30,7 +30,11 @@ public class ProductSearchNfilter extends CommonLibrary {
 	private WebElement addToCart;
 	
 	@FindBy(how = How.XPATH, using="//span[text()='Cart']")
-	private WebElement viewCart;
+	private WebElement viewCartButton;
+	
+	@FindBy(how = How.XPATH, using="//a[@id='HeaderMenu-home']")
+	private WebElement homeButton;
+	
 	
 	
 	//clicking on search button
@@ -47,6 +51,7 @@ public class ProductSearchNfilter extends CommonLibrary {
 	public void clickOnSearchedPurductButton() {
 		buttonClick(enteredTextSearchButton);
 		driver.findElement(By.xpath("//a[@id='CardLink--2151063355489']")).click();
+		logger.info("Clicked on selected item");
 	}
 	
 	//Add to cart
@@ -58,14 +63,13 @@ public class ProductSearchNfilter extends CommonLibrary {
 		}
 
 		//View and remove item from cart
-				public void viewNRemoveproductFromCart() {
+				public void viewNRemoveproductFromCart() throws InterruptedException {
 					js = (JavascriptExecutor) driver;
-					js.executeScript("arguments[0].scrollIntoView(true);", viewCart);
-					js.executeScript("arguments[0].click();", viewCart);
-					
+					js.executeScript("arguments[0].scrollIntoView(true);", viewCartButton);
+					js.executeScript("arguments[0].click();", viewCartButton);
 					driver.findElement(By.xpath("//a[contains(@aria-label,'Remove')]")).click();
-					driver.findElement(By.xpath("//a[@id='HeaderMenu-home']")).click();
-					
+					logger.info("Item removed from the cart");
+					buttonClick(homeButton);
 				}
 		
 }
